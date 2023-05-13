@@ -1,3 +1,10 @@
+# Ignore all below list
+myMongoDB/somefile.txt
+Node.js/anotherfile.js
+myMongoDB/
+Node.js/
+myfile.py
+
 # Ignore Node.js modules
 node_modules/
 
