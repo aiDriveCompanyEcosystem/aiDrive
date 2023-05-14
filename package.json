@@ -1,18 +1,31 @@
 {
   "name": "aiDrive",
   "version": "1.0.0",
-  "description": "A sample application for managing drivers and rides.",
+  "description": "aiDrive company ecosystem application description for managing drivers and rides",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"No test specified\" && exit 0"
   },
+  "keywords": [
+    "aiDrive",
+    "application",
+    "drivers",
+    "rides",
+    "management"
+  ],
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^6.0.12"
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.12",
+    "python-shell": "^1.0.8"
   },
-  "devDependencies": {},
-  "author": "Your Name",
+  "author": "Kelvin Osayemwenre",
   "license": "MIT"
 }
